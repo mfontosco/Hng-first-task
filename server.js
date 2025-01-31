@@ -12,7 +12,7 @@ app.use(cors({ origin: '*' }));
 app.get('/api/info', (req, res) => {
     res.json({
         email: process.env.EMAIL,
-        timestamp: new Date().toISOString(),
+        current_datetime: new Date().toISOString(),
         github_url: process.env.GITHUB_URL
     });
 });
