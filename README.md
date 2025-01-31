@@ -21,3 +21,16 @@ This API returns essential information including email, current datetime, and Gi
 
 
 Backlink:https://hng.tech/hire/nodejs-developers
+
+
+### How to Run the code locally
+Create a .env file with this
+EMAIL=mstrings11@gmail.com
+GITHUB_URL=https://github.com/mfontosco/Hng-first-task
+
+###Install these dependencies
+npm install express dotenv cors
+
+### Run locally
+npm run start
+
